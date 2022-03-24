@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <img src="./pokedex.jpg" alt="pokedex" id="pokedex">
+    <div id="div-pokedex">
+    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+    <img src="./Pkebola.jpg" alt="Pokemon" id="pokeImg">
+    <button id="pokeButton" onclick="fetchPokemon()">Buscar Pokemon</button>
+    <input type="text" id="type" disabled="disabled" value="not-found"/>
+    <input type="number" class="stats" id="hp" disabled="disabled" value="0"/>
+    <input type="number" class="stats" id="attck" disabled="disabled" value="0"/>
+    <input type="number" class="stats" id="defense" disabled="disabled" value="0"/>
+    <input type="number" class="stats" id="special-attack" disabled="disabled" value="0"/>
+    <input type="number" class="stats" id="special-defense" disabled="disabled" value="0"/>
+    <input type="number" class="stats" id="speed" disabled="disabled" value="0"/>
+    <input type="text" class="abilites" id="ability1" disabled="disabled" value="not-found"/>
+    <input type="text" class="abilites" id="ability2" disabled="disabled" value="not-found"/>
+    </div> 
+</body>
+<footer>
+    <script src="./controller.js"></script>
+</footer>
+</html>

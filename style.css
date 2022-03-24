@@ -1,0 +1,96 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#pokedex{
+    height: 500px;;
+    width: 1000px;
+    z-index: 0;
+    position: absolute;
+}
+#div-pokedex{
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#pokeName{
+  position: absolute;
+  top: 410px;
+  left: 116px;
+  z-index: 1;
+  height: 49px;
+  width: 160px;
+  font-size: 20px;
+}
+#pokeImg{
+    position: absolute;
+    top: 145px;
+    left: 85px;
+    height: 160px;
+    width: 330px;
+}
+#pokeButton{
+    position: absolute;
+    top: 390px;
+    left: 320px;
+    height: 30px;
+    width: 125px;
+    background-color: #222222;
+    border: 0px;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 12%;
+}
+#type{
+    position: absolute;
+    z-index: 1;
+    height: 14px;
+    width: 73px;
+    font-size: 10px;
+    top: 156px;
+    left: 649px;
+    padding: 0%;
+}
+.stats{
+    position: absolute;
+    z-index: 1;
+    height: 24px;
+    width: 30px;
+    font-size: 14px;
+    top: 217px;
+    padding: 0%;
+}
+#hp{
+  left: 614px;
+}
+#attck{
+    left:660px;
+}
+#defense{
+    left: 714px;
+}
+#special-attack{
+    left: 765px;
+}
+#special-defense{ 
+    left:820px;
+}
+#speed{
+    left: 878px;
+}
+.abilites{
+    position: absolute;
+    z-index: 1;
+    height: 27px;
+    width: 140px;
+    font-size: 14px;
+    top: 425px;
+    padding: 0%;
+    font-weight:bolder;
+}
+#ability1{
+    left:599px; ;
+}
+#ability2{
+    left: 781px;
+}
